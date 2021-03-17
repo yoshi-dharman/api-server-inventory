@@ -1,4 +1,3 @@
-const users = require("../../express/models/user");
 const inventory = require("../models/inventory");
 
 module.exports = {
