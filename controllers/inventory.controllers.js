@@ -68,8 +68,8 @@ module.exports = {
         const inven = req.body;
         const id = req.params.id;
         let editID;
-
-        users.map((item, index) => {
+        
+        inventory.map((item, index) => {
             if(item.id == id){
                 editID = index;
             }
